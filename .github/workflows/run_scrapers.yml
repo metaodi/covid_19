@@ -37,11 +37,57 @@ jobs:
           - VD
           - VS
           - ZG
-        overwrite: [no]
+        overwrite: [yes]
         include:
           - python-version: 3.7
-            canton: NE
-            overwrite: true
+            canton: AG
+            overwrite: no
+
+          - python-version: 3.7
+            canton: AI
+            source: https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
+            overwrite: no
+
+          - python-version: 3.7
+            canton: AR
+            source: https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
+            overwrite: no
+
+          - python-version: 3.7
+            canton: BE
+            overwrite: no
+
+          - python-version: 3.7
+            canton: BS
+            overwrite: no
+
+          - python-version: 3.7
+            canton: LU
+            source: https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
+            overwrite: no
+
+          - python-version: 3.7
+            canton: OW
+            source: https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
+            overwrite: no
+
+          - python-version: 3.7
+            canton: SG
+            overwrite: no
+
+          - python-version: 3.7
+            canton: TG
+            source: https://www.tg.ch/news/fachdossier-coronavirus.html/10552
+            overwrite: no
+
+          - python-version: 3.7
+            canton: UR
+            overwrite: no
+
+          - python-version: 3.7
+            canton: VD
+            source: https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
+
           - python-version: 3.7
             canton: ZG
             source: https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
