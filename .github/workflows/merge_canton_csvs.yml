@@ -50,5 +50,7 @@ jobs:
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         push-branch: master
+        name: GitHub Action Scraper
+        email: scraper@open.zh.ch
         commit_message: Update COVID19_Fallzahlen_CH_total.csv
         rebase: 'true'
